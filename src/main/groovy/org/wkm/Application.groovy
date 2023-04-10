@@ -8,7 +8,7 @@ import io.swagger.v3.oas.annotations.info.*
 @OpenAPIDefinition(
     info = @Info(
         title = "openapi-java-groovy",
-        version = "0.0"
+        version = "${apiversion}"
     )
 )
 @CompileStatic
